@@ -1,0 +1,9 @@
+{
+  "name": "santo-domingo-portal-academico",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal academico con una interfaz HTML y API segura para Vercel + PostgreSQL",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node dev-server.js", "check": "node --check api/index.js && node --check api/engine.js" },
+  "dependencies": { "pg": "^8.13.1" }
+}
